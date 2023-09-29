@@ -22,7 +22,7 @@ The HAPI FHIR OpenAPI functionality is supplied in a dedicated module called `ha
 
 ```xml
 <dependency>
-	<groupId>ca.uhn.hapi.fhir</groupId>
+	<groupId>org.snomed</groupId>
 	<artifactId>hapi-fhir-server-openapi</artifactId>
 	<version>VERSION</version>
 </dependency>

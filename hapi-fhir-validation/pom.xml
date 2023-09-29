@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>ca.uhn.hapi.fhir</groupId>
+		<groupId>org.snomed</groupId>
 		<artifactId>hapi-deployable-pom</artifactId>
 		<version>6.9.6-SNAPSHOT</version>
 
@@ -17,23 +17,23 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-base</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-converter</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-caching-api</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-caching-caffeine</artifactId>
 			<version>${project.version}</version>
 		</dependency>
@@ -168,67 +168,67 @@
 		Optional dependencies on the various versions of FHIR
 		-->
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-structures-dstu2</artifactId>
 			<version>${project.version}</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-validation-resources-dstu2</artifactId>
 			<version>${project.version}</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-structures-hl7org-dstu2</artifactId>
 			<version>${project.version}</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-structures-dstu2.1</artifactId>
 			<version>${project.version}</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-validation-resources-dstu2.1</artifactId>
 			<version>${project.version}</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-structures-dstu3</artifactId>
 			<version>${project.version}</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-validation-resources-dstu3</artifactId>
 			<version>${project.version}</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-structures-r4</artifactId>
 			<version>${project.version}</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-validation-resources-r4</artifactId>
 			<version>${project.version}</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-structures-r4b</artifactId>
 			<version>${project.version}</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-validation-resources-r4b</artifactId>
 			<version>${project.version}</version>
 			<optional>true</optional>
@@ -237,12 +237,12 @@
 		<!-- The validator and snapshot generators require R5 structures independent of which
 		version is being validated -->
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-structures-r5</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-validation-resources-r5</artifactId>
 			<version>${project.version}</version>
 			<optional>true</optional>
@@ -260,13 +260,13 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-server</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-client</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
@@ -317,7 +317,7 @@
 			<scope>test</scope>
 		</dependency>
         <dependency>
-            <groupId>ca.uhn.hapi.fhir</groupId>
+            <groupId>org.snomed</groupId>
             <artifactId>hapi-fhir-test-utilities</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
@@ -363,7 +363,7 @@
 			<scope>test</scope>
 		</dependency>
 	  <dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-jpaserver-model</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>

@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>ca.uhn.hapi.fhir</groupId>
+		<groupId>org.snomed</groupId>
 		<artifactId>hapi-deployable-pom</artifactId>
 		<version>6.9.6-SNAPSHOT</version>
 
@@ -19,12 +19,12 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-storage-batch2</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-test-utilities</artifactId>
 			<version>${project.version}</version>
 		</dependency>

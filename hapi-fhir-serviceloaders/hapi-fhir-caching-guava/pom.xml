@@ -6,7 +6,7 @@
 
 	<parent>
 		<artifactId>hapi-fhir-serviceloaders</artifactId>
-		<groupId>ca.uhn.hapi.fhir</groupId>
+		<groupId>org.snomed</groupId>
 		<version>6.9.6-SNAPSHOT</version>
 
 		<relativePath>../pom.xml</relativePath>
@@ -19,7 +19,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-caching-api</artifactId>
 			<version>${project.version}</version>
 		</dependency>

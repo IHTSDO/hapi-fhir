@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>ca.uhn.hapi.fhir</groupId>
+		<groupId>org.snomed</groupId>
 		<artifactId>hapi-deployable-pom</artifactId>
 		<version>6.9.6-SNAPSHOT</version>
 
@@ -43,7 +43,7 @@
 		</dependency>
 
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-base</artifactId>
 			<version>${project.version}</version>
 			<exclusions>
@@ -54,37 +54,37 @@
 			</exclusions>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-jpa</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-server</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-structures-dstu2</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-structures-dstu3</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-structures-r4</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-structures-r5</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-structures-hl7org-dstu2</artifactId>
 			<version>${project.version}</version>
 		</dependency>
@@ -140,12 +140,12 @@
 
 		<!-- Caffeine -->
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-caching-api</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-caching-testing</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>

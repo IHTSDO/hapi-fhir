@@ -6,7 +6,7 @@
 
 	<parent>
 		<artifactId>hapi-fhir</artifactId>
-		<groupId>ca.uhn.hapi.fhir</groupId>
+		<groupId>org.snomed</groupId>
 		<version>6.9.6-SNAPSHOT</version>
 
 		<relativePath>../../pom.xml</relativePath>
@@ -22,7 +22,7 @@
 	<dependencies>
 		<!-- Change here (and run mvn install, mvn test -U) to run test cases with different cache library -->
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-caching-caffeine</artifactId>
 			<version>${project.version}</version>
 		</dependency>

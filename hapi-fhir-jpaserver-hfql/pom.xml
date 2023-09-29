@@ -1,7 +1,7 @@
 <project>
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>ca.uhn.hapi.fhir</groupId>
+		<groupId>org.snomed</groupId>
 		<artifactId>hapi-deployable-pom</artifactId>
 		<version>6.9.6-SNAPSHOT</version>
 		<relativePath>../hapi-deployable-pom/pom.xml</relativePath>
@@ -13,7 +13,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-jpaserver-base</artifactId>
 			<version>${project.version}</version>
 		</dependency>
@@ -27,7 +27,7 @@
 
 		<!-- Test -->
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-test-utilities</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>

@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>ca.uhn.hapi.fhir</groupId>
+		<groupId>org.snomed</groupId>
 		<artifactId>hapi-deployable-pom</artifactId>
 		<version>6.9.6-SNAPSHOT</version>
 		<relativePath>../hapi-deployable-pom/pom.xml</relativePath>
@@ -16,22 +16,22 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-jpaserver-searchparam</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-storage</artifactId>
 			<version>${project.version}</version>
 		</dependency>
         <dependency>
-            <groupId>ca.uhn.hapi.fhir</groupId>
+            <groupId>org.snomed</groupId>
             <artifactId>hapi-fhir-jpaserver-model</artifactId>
             <version>${project.version}</version>
         </dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-validation</artifactId>
 			<version>${project.version}</version>
 		</dependency>
@@ -73,7 +73,7 @@
 
 		<!-- test dependencies -->
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-caching-testing</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
@@ -114,7 +114,7 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>ca.uhn.hapi.fhir</groupId>
+			<groupId>org.snomed</groupId>
 			<artifactId>hapi-fhir-test-utilities</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>

@@ -12,7 +12,7 @@ To use the `hapi-fhir-converter` module, import the following dependency into yo
 
 ```xml
 <dependency>
-	<groupId>ca.uhn.hapi.fhir</groupId>
+	<groupId>org.snomed</groupId>
 	<artifactId>hapi-fhir-converter</artifactId>
 	<version>${project.version}</version>
 </dependency>

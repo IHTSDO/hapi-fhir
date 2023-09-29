@@ -14,12 +14,12 @@ If you are using Maven, the following example shows dependencies being added to 
 ```xml
 <dependencies>
     <dependency>
-        <groupId>ca.uhn.hapi.fhir</groupId>
+        <groupId>org.snomed</groupId>
         <artifactId>hapi-fhir-structures-dstu2</artifactId>
         <version>${project.version}</version>
     </dependency>
     <dependency>
-        <groupId>ca.uhn.hapi.fhir</groupId>
+        <groupId>org.snomed</groupId>
         <artifactId>hapi-fhir-structures-r4</artifactId>
         <version>${project.version}</version>
     </dependency>
@@ -31,12 +31,12 @@ Note that if you wish to perform validation, you may also want to include the "v
 ```xml
 <dependencies>
     <dependency>
-        <groupId>ca.uhn.hapi.fhir</groupId>
+        <groupId>org.snomed</groupId>
         <artifactId>hapi-fhir-validation-resources-dstu2</artifactId>
         <version>${project.version}</version>
     </dependency>
     <dependency>
-        <groupId>ca.uhn.hapi.fhir</groupId>
+        <groupId>org.snomed</groupId>
         <artifactId>hapi-fhir-validation-resources-R4</artifactId>
         <version>${project.version}</version>
     </dependency>

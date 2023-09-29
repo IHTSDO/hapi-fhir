@@ -4,7 +4,7 @@
 
 	<parent>
 		<artifactId>hapi-deployable-pom</artifactId>
-		<groupId>ca.uhn.hapi.fhir</groupId>
+		<groupId>org.snomed</groupId>
 		<version>6.9.6-SNAPSHOT</version>
 		<relativePath>../hapi-deployable-pom/pom.xml</relativePath>
 	</parent>

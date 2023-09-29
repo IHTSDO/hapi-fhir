@@ -16,14 +16,14 @@ Adding the overlay to your project is relatively simple. First, add the "hapi-fh
 <dependencies>
     <!-- ... other dependencies ... -->
     <dependency>
-        <groupId>ca.uhn.hapi.fhir</groupId>
+        <groupId>org.snomed</groupId>
         <artifactId>hapi-fhir-testpage-overlay</artifactId>
         <version>${project.version}</version>
         <type>war</type>
         <scope>provided</scope>		
     </dependency>
     <dependency>
-        <groupId>ca.uhn.hapi.fhir</groupId>
+        <groupId>org.snomed</groupId>
         <artifactId>hapi-fhir-testpage-overlay</artifactId>
         <version>${project.version}</version>
         <classifier>classes</classifier>
@@ -44,7 +44,7 @@ Then, add the following WAR plugin to the plugins section of your POM.xml
             <configuration>
                 <overlays>
                     <overlay>
-                        <groupId>ca.uhn.hapi.fhir</groupId>
+                        <groupId>org.snomed</groupId>
                         <artifactId>hapi-fhir-testpage-overlay</artifactId>
                     </overlay>
                 </overlays>

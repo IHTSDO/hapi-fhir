@@ -70,7 +70,7 @@ To use OkHttp, first add the library as a dependency to your project POM:
 
 ```xml
 <dependency>
-    <groupId>ca.uhn.hapi.fhir</groupId>
+    <groupId>org.snomed</groupId>
     <artifactId>hapi-fhir-client-okhttp</artifactId>
     <version>${hapi_stable_version}</version>		
 </dependency>
