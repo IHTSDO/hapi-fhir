@@ -117,6 +117,8 @@ import ca.uhn.fhir.validation.IValidatorModule;
 import ca.uhn.fhir.validation.ValidationOptions;
 import ca.uhn.fhir.validation.ValidationResult;
 import com.google.common.annotations.VisibleForTesting;
+import jakarta.annotation.Nonnull;
+import jakarta.annotation.Nullable;
 import jakarta.annotation.PostConstruct;
 import jakarta.persistence.LockModeType;
 import jakarta.persistence.NoResultException;
@@ -154,8 +156,6 @@ import java.util.UUID;
 import java.util.concurrent.Callable;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
 
 import static java.util.Objects.isNull;
 import static org.apache.commons.lang3.StringUtils.isBlank;
@@ -1326,8 +1326,8 @@ public abstract class BaseHapiFhirResourceDao<T extends IBaseResource> extends B
 				addAllResourcesTypesToReindex(theBase, theRequestDetails, params);
 			}
 
-			ReadPartitionIdRequestDetails details =
-					ReadPartitionIdRequestDetails.forOperation(null, null, ProviderConstants.OPERATION_REINDEX);
+			ReadPartitionIdRequestDetails details = ReadPartitionIdRequestDetails.forOperation(
+					(String) null, (IIdType) null, ProviderConstants.OPERATION_REINDEX);
 			RequestPartitionId requestPartition =
 					myRequestPartitionHelperService.determineReadPartitionForRequest(theRequestDetails, details);
 			params.setRequestPartitionId(requestPartition);

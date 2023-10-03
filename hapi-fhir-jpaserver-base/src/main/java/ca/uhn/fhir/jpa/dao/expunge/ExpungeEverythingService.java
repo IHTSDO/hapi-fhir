@@ -78,12 +78,14 @@ import ca.uhn.fhir.rest.server.provider.ProviderConstants;
 import ca.uhn.fhir.rest.server.servlet.ServletRequestDetails;
 import ca.uhn.fhir.rest.server.util.CompositeInterceptorBroadcaster;
 import ca.uhn.fhir.util.StopWatch;
+import jakarta.annotation.Nullable;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.PersistenceContextType;
 import jakarta.persistence.TypedQuery;
 import jakarta.persistence.criteria.CriteriaBuilder;
 import jakarta.persistence.criteria.CriteriaQuery;
+import org.hl7.fhir.instance.model.api.IIdType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -92,7 +94,6 @@ import org.springframework.transaction.annotation.Propagation;
 
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
-import javax.annotation.Nullable;
 
 @Service
 public class ExpungeEverythingService implements IExpungeEverythingService {
@@ -130,8 +131,8 @@ public class ExpungeEverythingService implements IExpungeEverythingService {
 
 		ourLog.info("BEGINNING GLOBAL $expunge");
 		Propagation propagation = Propagation.REQUIRES_NEW;
-		ReadPartitionIdRequestDetails details =
-				ReadPartitionIdRequestDetails.forOperation(null, null, ProviderConstants.OPERATION_EXPUNGE);
+		ReadPartitionIdRequestDetails details = ReadPartitionIdRequestDetails.forOperation(
+				(String) null, (IIdType) null, ProviderConstants.OPERATION_EXPUNGE);
 		RequestPartitionId requestPartitionId =
 				myRequestPartitionHelperSvc.determineReadPartitionForRequest(theRequest, details);
 
