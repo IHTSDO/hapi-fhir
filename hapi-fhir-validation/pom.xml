@@ -44,6 +44,10 @@
 			<version>${fhir_core_version}</version>
 			<exclusions>
 				<exclusion>
+					<groupId>ca.uhn.hapi.fhir</groupId>
+					<artifactId>hapi-fhir-base</artifactId>
+				</exclusion>
+				<exclusion>
 					<groupId>info.cqframework</groupId>
 					<artifactId>elm</artifactId>
 				</exclusion>
@@ -97,6 +101,12 @@
 			<groupId>ca.uhn.hapi.fhir</groupId>
 			<artifactId>org.hl7.fhir.utilities</artifactId>
 			<version>${fhir_core_version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>ca.uhn.hapi.fhir</groupId>
+					<artifactId>hapi-fhir-base</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 
         <dependency>

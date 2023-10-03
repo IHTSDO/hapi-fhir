@@ -25,6 +25,12 @@
 			<groupId>ca.uhn.hapi.fhir</groupId>
 			<artifactId>org.hl7.fhir.dstu2016may</artifactId>
 			<version>${fhir_core_version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>ca.uhn.hapi.fhir</groupId>
+					<artifactId>hapi-fhir-base</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.fhir</groupId>

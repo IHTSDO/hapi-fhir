@@ -1009,6 +1009,10 @@
 						<groupId>commons-net</groupId>
 						<artifactId>commons-net</artifactId>
 					</exclusion>
+					<exclusion>
+						<groupId>ca.uhn.hapi.fhir</groupId>
+						<artifactId>hapi-fhir-base</artifactId>
+					</exclusion>
 				</exclusions>
 			</dependency>
 			<dependency>

@@ -23,6 +23,12 @@
 			<groupId>ca.uhn.hapi.fhir</groupId>
 			<artifactId>org.hl7.fhir.convertors</artifactId>
 			<version>${fhir_core_version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>ca.uhn.hapi.fhir</groupId>
+					<artifactId>hapi-fhir-base</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 
 		<!-- Server -->
