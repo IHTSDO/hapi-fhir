@@ -6,7 +6,7 @@
 
 	<!-- the version info -->
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.snomed</groupId>
+	<groupId>org.snomed.fhir</groupId>
 	<artifactId>hapi-fhir</artifactId>
 	<packaging>pom</packaging>
 	<version>6.9.6-SNAPSHOT</version>

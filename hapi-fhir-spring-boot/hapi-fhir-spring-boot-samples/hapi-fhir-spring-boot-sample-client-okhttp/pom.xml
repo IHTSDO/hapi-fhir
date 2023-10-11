@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.snomed</groupId>
+		<groupId>org.snomed.fhir</groupId>
 		<artifactId>hapi-fhir-spring-boot-samples</artifactId>
 		<version>6.9.6-SNAPSHOT</version>
 
@@ -24,17 +24,17 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-spring-boot-starter</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-structures-dstu3</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-client-okhttp</artifactId>
 			<version>${project.version}</version>
 		</dependency>

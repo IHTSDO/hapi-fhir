@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.snomed</groupId>
+		<groupId>org.snomed.fhir</groupId>
 		<artifactId>hapi-deployable-pom</artifactId>
 		<version>6.9.6-SNAPSHOT</version>
 
@@ -18,28 +18,28 @@
 
 		<!-- This dependency includes the core HAPI-FHIR classes -->
 		<dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-base</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-jpaserver-base</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-sql-migrate</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 	  <dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-test-utilities</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
 	  </dependency>
 	  <dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-caching-testing</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
@@ -51,27 +51,27 @@
 			<artifactId>commons-compress</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-structures-dstu2</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-structures-dstu3</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-structures-hl7org-dstu2</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-validation-resources-dstu2</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-validation-resources-dstu3</artifactId>
 			<version>${project.version}</version>
 		</dependency>

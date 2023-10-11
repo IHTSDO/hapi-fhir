@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.snomed</groupId>
+		<groupId>org.snomed.fhir</groupId>
 		<artifactId>hapi-deployable-pom</artifactId>
 		<version>6.9.6-SNAPSHOT</version>
 
@@ -21,22 +21,22 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-base</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-server</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-storage</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-jpa</artifactId>
 			<version>${project.version}</version>
 		</dependency>
@@ -63,7 +63,7 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-test-utilities</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
@@ -83,7 +83,7 @@
 			<artifactId>spring-data-commons</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-structures-dstu2</artifactId>
 			<version>${project.version}</version>
 			<scope>compile</scope>

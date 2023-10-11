@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.snomed</groupId>
+		<groupId>org.snomed.fhir</groupId>
 		<artifactId>hapi-deployable-pom</artifactId>
 		<version>6.9.6-SNAPSHOT</version>
 
@@ -235,7 +235,7 @@
 				</executions>
 				<dependencies>
 					<dependency>
-						<groupId>org.snomed</groupId>
+						<groupId>org.snomed.fhir</groupId>
 						<artifactId>hapi-fhir-checkstyle</artifactId>
 						<version>${project.version}</version>
 					</dependency>

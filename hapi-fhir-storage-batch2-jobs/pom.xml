@@ -3,7 +3,7 @@
 			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 			xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<parent>
-		<groupId>org.snomed</groupId>
+		<groupId>org.snomed.fhir</groupId>
 		<artifactId>hapi-deployable-pom</artifactId>
 		<version>6.9.6-SNAPSHOT</version>
 
@@ -15,12 +15,12 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-base</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-storage-batch2</artifactId>
 			<version>${project.version}</version>
 		</dependency>
@@ -33,7 +33,7 @@
 
 		<!-- Test Dependencies -->
 		<dependency>
-			<groupId>org.snomed</groupId>
+			<groupId>org.snomed.fhir</groupId>
 			<artifactId>hapi-fhir-test-utilities</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
