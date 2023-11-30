@@ -9,7 +9,7 @@
 	<groupId>org.snomed.fhir</groupId>
 	<artifactId>hapi-fhir</artifactId>
 	<packaging>pom</packaging>
-	<version>6.9.6-SNAPSHOT</version>
+	<version>6.9.6</version>
 
 	<name>HAPI-FHIR</name>
 	<description>An open-source implementation of the FHIR specification in Java.</description>
